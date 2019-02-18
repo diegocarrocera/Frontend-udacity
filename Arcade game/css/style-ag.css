@@ -1,0 +1,124 @@
+html {
+	background:url(../images/shutterstock_1212590251.png) no-repeat fixed;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+body {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.header {
+    color: #fff;
+    animation-name: pulse;
+	-webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+	animation-duration: .75s;
+}
+.header h1:hover, button:hover {
+    animation-name: pulse;
+    -webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+	animation-duration: .90s;
+}
+#logo-title {
+	margin-left: 388px;
+	margin-top: -114px;
+	margin-bottom: -20px;
+	width: 141px;
+	height: 148px;
+}	
+img{
+	width: 100%;
+	height: 100%;
+}
+canvas {
+	padding: 15px 50px 15px 50px;
+}
+h1 {
+	font-family: Verdana;
+	font-size: 40px;
+	margin: 0 0 20px 0;
+	color: white;
+}
+h4 {
+	font-size: 30px;
+	margin: 0;
+	color:white;
+}
+label {
+	color: white;
+}
+.players {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+.arrival{
+	position: absolute;
+	top: 155px;
+	right: 48px;
+	left: 665px;
+	font-family: 'Courier New', Courier, monospace;
+	color: white;
+}
+.level {
+	position: absolute;
+	top: 179px;
+	right: 50px;
+	left: 707px;
+	font-family: 'Courier New', Courier, monospace;
+	color: white;
+}
+
+.live {
+	position: absolute;
+	top: 131px;
+	right: 50px;
+	left: 638px;
+	font-family: 'Courier New', Courier, monospace;
+	color: white;
+}
+.button {
+	position: fixed;
+	top: 179px;
+	right: 50px;
+	left: 707px;
+	font-family: 'Courier New', Courier, monospace;
+}
+form {
+	display: flex;
+}
+.personage {
+	margin: 0.25rem;
+	border-radius: 0.2rem;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+input[type="radio"] {
+	cursor: pointer;
+}
+.pers_images {
+	max-width: 72%;
+	height: auto;
+	margin-top: -67px;
+}
+.container {
+	margin: 1rem auto 3rem;
+	padding: 3rem;
+	width: 100%;
+	max-width: 358px;
+	border-radius: 0.2rem;
+	margin-top: 49px;
+}

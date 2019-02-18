@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Arcade Game</title>
+
+       <!-- css -->
+      <link rel="stylesheet" href="css/style-ag.css">
+      <link rel="stylesheet" href="css/modal-ag.css">
+
+       <!-- Favicon -->
+      <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png ">
+
+       <!-- Jquery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   </head>
+   <body>
+      <!-- header title  -->
+      <header>
+      
+         <div class="header">
+            <h1>ARCADE GAME</h1>
+            <img src="images/gamepad.png" id="logo-title">
+        </div>
+        
+      </header>
+      <div class="music">
+            <audio src="" autoplay loop></audio>
+         </div>
+      <!-- section arrival and live -->
+      <section class="result">
+         <p class="arrival">arrival: <span id="arrival">0</span></p>
+         <p class="live">live: <span id="live">3</span></p>
+      </section>
+      <!-- section players -->
+      <section class="players">
+         <div class="container">
+            <form id="group" class="radiogroup">
+               <div class="personage">
+                  <label>
+                  <img class="pers_images" src="images/char-mario.png" alt="mario">
+                  <input type="checkbox" id="mario" onclick="changeCharacter('mario')"/>
+                  </label>
+               </div>
+               <div class="personager">
+                  <label>
+                  <img class="pers_images" src="images/char-luigi.png" alt="luigi">
+                  <input type="checkbox" id="luigi" onclick="changeCharacter('luigi')"/><br><br>
+                  </label>
+               </div>
+               <div class="personage">
+                  <label>
+                  <img class="pers_images" src="images/char-yoshi.png" alt="yoshi">
+                  <input type="checkbox" id="yoshi" onclick="changeCharacter('yoshi')"/><br><br>
+                  </label>
+               </div>
+               <div class="personager">
+                  <label>
+                  <img class="pers_images" src="images/char-udacity.png" alt="udacity">
+                  <input type="checkbox" id="udacity" onclick="changeCharacter('udacity')"/><br><br>
+                  </label>
+               </div>
+            </form>
+         </div>
+         </div>
+      </section>
+
+       <!-- Modal  WIN OR LOSE -->
+      <section id="modalPopup" class="overlay">
+         <div class="popup">
+            <div class="results-title" id="results-title">
+            </div>   
+            <button class="button-reload" input type="button" onClick = "location.reload(true)">Replay</button>
+         </div>
+      </section>
+
+       <!-- js -->
+      <script src="js/resources-ag.js"></script>
+      <script src="js/app-ag.js"></script>
+      <script src="js/engine-ag.js"></script>
+   </body>
+</html>
+

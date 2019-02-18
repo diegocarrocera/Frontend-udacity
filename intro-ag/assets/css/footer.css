@@ -1,0 +1,74 @@
+#footer {
+	padding: 50px 0;
+	position: relative;
+    color: #fff;
+    margin-top: -203px;
+}
+#footer .gotop {
+	position: relative;
+	top: -20px;
+	left: 50%;
+	margin-left: -40px;
+	z-index: 8;
+	width: 80px;
+	height: 80px;
+	font-size: 30px;
+	padding-top: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 50%;
+	transition: .2s
+}
+
+#logo-dc-footer {
+	height: 50px;
+	width: 50px;
+	margin: -21px -83px -38px 0px;
+	margin-top: -77px;
+}
+
+.social {
+	position: relative
+}
+
+.social,
+.social li {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	margin-left: 9px;
+}
+
+.social li a.social-box,
+.social li a.social-circle {
+	color: #fff
+}
+
+
+.social {
+	width: 100%
+}
+.social li {
+	list-style: none
+}
+.social li a {
+	font-size: 16px;
+	display: table;
+	width: 40px;
+	height: 40px;
+	margin: 0 4px
+}
+.social li a i {
+	display: table-cell;
+	vertical-align: middle
+}
+.social.social-box a,
+.social.social-circle a {
+	color: #fff
+}
+.typewrite{
+	color: white
+}
+
+/*<<<<<<<<<<<END FOOTER>>>>>>>>>>>*/
+
