@@ -57,7 +57,6 @@ $(document).ready(function(){
     var enemyYTopMax = this.y - 35;
     var enemyYBottomMax = this.y + 35;
     if (player.x > enemyXleftMax && player.x < enemyXRightMax && player.y > enemyYTopMax && player.y < enemyYBottomMax) { 
-      alert('stop')
       player.resetPlayer();
       // Minus one live.
       live--;
